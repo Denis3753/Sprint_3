@@ -18,9 +18,9 @@ import static org.hamcrest.Matchers.equalTo;
 public class CreateCourierTest {
 
     private static final String MESSAGE_CONFLICT = "Этот логин уже используется. Попробуйте другой.";
-    private static final String MESSAGE_BAD_REQUEST = "Недостаточно данных для создания учетной записи";
+    private static final String MESSAGE_BAD_REQ = "Недостаточно данных для создания учетной записи";
     private CourierClient courierClient;
-    private ValidatableResponse response;
+    private ValidatableResponse res;
     private Courier courier;
     private int id;
 
@@ -39,11 +39,11 @@ public class CreateCourierTest {
     @DisplayName("Create courier is valid credentials")
     public void courierCreateValidCredentials() {
 
-        response = courierClient.createCourier(courier);
-        int statusCode = response.extract().statusCode();
-        boolean isCreate = response.extract().path("ok");
-        response = courierClient.loginCourier(new CourierCredentials(courier.getLogin(), courier.getPassword()));
-        id = response.extract().path("id");
+        res = courierClient.createCourier(courier);
+        int statusCode = res.extract().statusCode();
+        boolean isCreate = res.extract().path("ok");
+        res = courierClient.loginCourier(new CourierCredentials(courier.getLogin(), courier.getPassword()));
+        id = res.extract().path("id");
 
         assertThat("Courier create incorrect", statusCode, equalTo(SC_CREATED));
         assertThat("Courier create incorrect", isCreate, equalTo(true));
@@ -53,12 +53,12 @@ public class CreateCourierTest {
     @DisplayName("Create courier is empty login")
     public void courierCreateIsEmptyLogin() {
         courier.setLogin(null);
-        response = courierClient.createCourier(courier);
-        int statusCode = response.extract().statusCode();
-        String message = response.extract().path("message");
+        res = courierClient.createCourier(courier);
+        int statusCode = res.extract().statusCode();
+        String message = res.extract().path("message");
 
         assertThat("Not login data to create an courier", statusCode, equalTo(SC_BAD_REQUEST));
-        assertThat("Message not equal", message,  equalTo(MESSAGE_BAD_REQUEST));
+        assertThat("Message not equal", message,  equalTo(MESSAGE_BAD_REQ));
     }
 
     @Test
@@ -66,12 +66,12 @@ public class CreateCourierTest {
     public void courierCreateIsEmptyPassword() {
 
         courier.setPassword(null);
-        response = courierClient.createCourier(courier);
-        int statusCode = response.extract().statusCode();
-        String message = response.extract().path("message");
+        res = courierClient.createCourier(courier);
+        int statusCode = res.extract().statusCode();
+        String message = res.extract().path("message");
 
         assertThat("Not password data to create an courier", statusCode, equalTo(SC_BAD_REQUEST));
-        assertThat("Message not equal", message,  equalTo(MESSAGE_BAD_REQUEST));
+        assertThat("Message not equal", message,  equalTo(MESSAGE_BAD_REQ));
     }
 
 
@@ -81,9 +81,9 @@ public class CreateCourierTest {
     public void courierCreateRepeatedRequestByDuplicateData() {
 
         courierClient.createCourier(courier);
-        response = courierClient.createCourier(courier);
-        int statusCode = response.extract().statusCode();
-        String message = response.extract().path("message");
+        res = courierClient.createCourier(courier);
+        int statusCode = res.extract().statusCode();
+        String message = res.extract().path("message");
 
         assertThat("Code not equal", statusCode, equalTo(SC_CONFLICT));
         assertThat("Message not equal", message,  equalTo(MESSAGE_CONFLICT));
