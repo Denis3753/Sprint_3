@@ -33,4 +33,24 @@ public class CourierClient extends ScooterConfig {
                 .log().all();
     }
 
+    @Step("Send DELETE request to /api/v1/courier")
+    public ValidatableResponse deleteCourier() {
+        return given()
+                .spec(getBaseSpec())
+                .log().all()
+                .delete(EndPoints.COURIER_PATH)
+                .then()
+                .log().all();
+    }
+
+    @Step("Send DELETE request to /api/v1/courier/{id}")
+    public ValidatableResponse deleteCourier(Integer id) {
+        return given()
+                .spec(getBaseSpec())
+                .log().all()
+                .delete(EndPoints.COURIER_PATH + id)
+                .then()
+                .log().all();
+    }
+
 }
