@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "cceb03829697562ea269fa9ebe66d7c2",
+    "name" : "ru.yandex.practicum.login.CourierLoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "b1ca34a4c2780dcba79b4b31eb1a1282",
+    "name" : "ru.yandex.practicum.create.CreateCourierTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "cbee31c0a77e6732fee0e6537c476b69",
+    "name" : "ru.yandex.practicum.order.CreateOrderParamitrizedTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "783f291cf4ddfc80ab8af4578f37aff3",
+    "name" : "ru.yandex.practicum.order.GetAllOrdersTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

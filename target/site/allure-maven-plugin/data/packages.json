@@ -1,0 +1,203 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.yandex.practicum",
+    "children" : [ {
+      "name" : "create",
+      "children" : [ {
+        "name" : "courierCreateValidCredentials",
+        "uid" : "1270a26be77d3e91",
+        "parentUid" : "260cbe8f50b533eb081d31224f78a0cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767292206,
+          "stop" : 1653767298357,
+          "duration" : 6151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierCreateIsEmptyPassword",
+        "uid" : "d2c18a988a288f48",
+        "parentUid" : "260cbe8f50b533eb081d31224f78a0cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767298509,
+          "stop" : 1653767298858,
+          "duration" : 349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierCreateRepeatedRequestByDuplicateData",
+        "uid" : "72d57e04f1eca5ef",
+        "parentUid" : "260cbe8f50b533eb081d31224f78a0cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767298866,
+          "stop" : 1653767299352,
+          "duration" : 486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierCreateIsEmptyLogin",
+        "uid" : "e06a908db247c9e",
+        "parentUid" : "260cbe8f50b533eb081d31224f78a0cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767299356,
+          "stop" : 1653767299672,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "260cbe8f50b533eb081d31224f78a0cf"
+    }, {
+      "name" : "login",
+      "children" : [ {
+        "name" : "courierLoginInvalidPassword",
+        "uid" : "b07eb719e86c76c9",
+        "parentUid" : "fcb8cfffe9086331a07b88f320d2b6e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767299678,
+          "stop" : 1653767300231,
+          "duration" : 553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierLoginInvalidLogin",
+        "uid" : "412cdaafa4c1bcd2",
+        "parentUid" : "fcb8cfffe9086331a07b88f320d2b6e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767300235,
+          "stop" : 1653767300739,
+          "duration" : 504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierLoginIsEmptyPassword",
+        "uid" : "46b69defc7cd79c3",
+        "parentUid" : "fcb8cfffe9086331a07b88f320d2b6e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767300745,
+          "stop" : 1653767361283,
+          "duration" : 60538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierLoginIsEmptyLogin",
+        "uid" : "c1ab12003166cfb2",
+        "parentUid" : "fcb8cfffe9086331a07b88f320d2b6e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767361286,
+          "stop" : 1653767361973,
+          "duration" : 687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "courierLoginValidCredentials",
+        "uid" : "392560ae20d0df40",
+        "parentUid" : "fcb8cfffe9086331a07b88f320d2b6e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767361976,
+          "stop" : 1653767362519,
+          "duration" : 543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcb8cfffe9086331a07b88f320d2b6e1"
+    }, {
+      "name" : "order",
+      "children" : [ {
+        "name" : "orderCreateValidCredentials[0]",
+        "uid" : "9d86ee44145b2fe6",
+        "parentUid" : "f6176de8a3e413a9c2d0f6b1bb999cf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767362555,
+          "stop" : 1653767362786,
+          "duration" : 231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "orderCreateValidCredentials[1]",
+        "uid" : "2a9623db0aada2cb",
+        "parentUid" : "f6176de8a3e413a9c2d0f6b1bb999cf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767362790,
+          "stop" : 1653767362965,
+          "duration" : 175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "orderCreateValidCredentials[2]",
+        "uid" : "f7b47e7e30316073",
+        "parentUid" : "f6176de8a3e413a9c2d0f6b1bb999cf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767362968,
+          "stop" : 1653767363153,
+          "duration" : 185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "orderCreateValidCredentials[3]",
+        "uid" : "f7ac5f5be3d0f3fa",
+        "parentUid" : "f6176de8a3e413a9c2d0f6b1bb999cf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767363155,
+          "stop" : 1653767363315,
+          "duration" : 160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getAllOrders",
+        "uid" : "9567a933cc126cfe",
+        "parentUid" : "f6176de8a3e413a9c2d0f6b1bb999cf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653767363318,
+          "stop" : 1653767364405,
+          "duration" : 1087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6176de8a3e413a9c2d0f6b1bb999cf2"
+    } ],
+    "uid" : "ru.yandex.practicum"
+  } ]
+}

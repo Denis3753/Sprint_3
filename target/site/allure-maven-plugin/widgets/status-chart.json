@@ -1,0 +1,141 @@
+[ {
+  "uid" : "46b69defc7cd79c3",
+  "name" : "Courier with empty field password",
+  "time" : {
+    "start" : 1653767300745,
+    "stop" : 1653767361283,
+    "duration" : 60538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1ab12003166cfb2",
+  "name" : "Courier with empty field login",
+  "time" : {
+    "start" : 1653767361286,
+    "stop" : 1653767361973,
+    "duration" : 687
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "392560ae20d0df40",
+  "name" : "Courier is valid credential",
+  "time" : {
+    "start" : 1653767361976,
+    "stop" : 1653767362519,
+    "duration" : 543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2c18a988a288f48",
+  "name" : "Create courier is empty password",
+  "time" : {
+    "start" : 1653767298509,
+    "stop" : 1653767298858,
+    "duration" : 349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72d57e04f1eca5ef",
+  "name" : "Repeat request by duplicate data",
+  "time" : {
+    "start" : 1653767298866,
+    "stop" : 1653767299352,
+    "duration" : 486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b07eb719e86c76c9",
+  "name" : "Courier invalid password",
+  "time" : {
+    "start" : 1653767299678,
+    "stop" : 1653767300231,
+    "duration" : 553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a9623db0aada2cb",
+  "name" : "Create order is valid credential",
+  "time" : {
+    "start" : 1653767362790,
+    "stop" : 1653767362965,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7ac5f5be3d0f3fa",
+  "name" : "Create order is valid credential",
+  "time" : {
+    "start" : 1653767363155,
+    "stop" : 1653767363315,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e06a908db247c9e",
+  "name" : "Create courier is empty login",
+  "time" : {
+    "start" : 1653767299356,
+    "stop" : 1653767299672,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "412cdaafa4c1bcd2",
+  "name" : "Courier invalid login",
+  "time" : {
+    "start" : 1653767300235,
+    "stop" : 1653767300739,
+    "duration" : 504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7b47e7e30316073",
+  "name" : "Create order is valid credential",
+  "time" : {
+    "start" : 1653767362968,
+    "stop" : 1653767363153,
+    "duration" : 185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9567a933cc126cfe",
+  "name" : "Get all orders courier",
+  "time" : {
+    "start" : 1653767363318,
+    "stop" : 1653767364405,
+    "duration" : 1087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1270a26be77d3e91",
+  "name" : "Create courier is valid credentials",
+  "time" : {
+    "start" : 1653767292206,
+    "stop" : 1653767298357,
+    "duration" : 6151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d86ee44145b2fe6",
+  "name" : "Create order is valid credential",
+  "time" : {
+    "start" : 1653767362555,
+    "stop" : 1653767362786,
+    "duration" : 231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

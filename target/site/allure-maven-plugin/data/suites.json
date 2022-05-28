@@ -1,0 +1,203 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.yandex.practicum.create.CreateCourierTest",
+    "children" : [ {
+      "name" : "Create courier is valid credentials",
+      "uid" : "1270a26be77d3e91",
+      "parentUid" : "b1ca34a4c2780dcba79b4b31eb1a1282",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767292206,
+        "stop" : 1653767298357,
+        "duration" : 6151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create courier is empty password",
+      "uid" : "d2c18a988a288f48",
+      "parentUid" : "b1ca34a4c2780dcba79b4b31eb1a1282",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767298509,
+        "stop" : 1653767298858,
+        "duration" : 349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Repeat request by duplicate data",
+      "uid" : "72d57e04f1eca5ef",
+      "parentUid" : "b1ca34a4c2780dcba79b4b31eb1a1282",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767298866,
+        "stop" : 1653767299352,
+        "duration" : 486
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create courier is empty login",
+      "uid" : "e06a908db247c9e",
+      "parentUid" : "b1ca34a4c2780dcba79b4b31eb1a1282",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767299356,
+        "stop" : 1653767299672,
+        "duration" : 316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b1ca34a4c2780dcba79b4b31eb1a1282"
+  }, {
+    "name" : "ru.yandex.practicum.login.CourierLoginTest",
+    "children" : [ {
+      "name" : "Courier invalid password",
+      "uid" : "b07eb719e86c76c9",
+      "parentUid" : "cceb03829697562ea269fa9ebe66d7c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767299678,
+        "stop" : 1653767300231,
+        "duration" : 553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Courier invalid login",
+      "uid" : "412cdaafa4c1bcd2",
+      "parentUid" : "cceb03829697562ea269fa9ebe66d7c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767300235,
+        "stop" : 1653767300739,
+        "duration" : 504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Courier with empty field password",
+      "uid" : "46b69defc7cd79c3",
+      "parentUid" : "cceb03829697562ea269fa9ebe66d7c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767300745,
+        "stop" : 1653767361283,
+        "duration" : 60538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Courier with empty field login",
+      "uid" : "c1ab12003166cfb2",
+      "parentUid" : "cceb03829697562ea269fa9ebe66d7c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767361286,
+        "stop" : 1653767361973,
+        "duration" : 687
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Courier is valid credential",
+      "uid" : "392560ae20d0df40",
+      "parentUid" : "cceb03829697562ea269fa9ebe66d7c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767361976,
+        "stop" : 1653767362519,
+        "duration" : 543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cceb03829697562ea269fa9ebe66d7c2"
+  }, {
+    "name" : "ru.yandex.practicum.order.CreateOrderParamitrizedTest",
+    "children" : [ {
+      "name" : "Create order is valid credential",
+      "uid" : "9d86ee44145b2fe6",
+      "parentUid" : "cbee31c0a77e6732fee0e6537c476b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767362555,
+        "stop" : 1653767362786,
+        "duration" : 231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create order is valid credential",
+      "uid" : "2a9623db0aada2cb",
+      "parentUid" : "cbee31c0a77e6732fee0e6537c476b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767362790,
+        "stop" : 1653767362965,
+        "duration" : 175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create order is valid credential",
+      "uid" : "f7b47e7e30316073",
+      "parentUid" : "cbee31c0a77e6732fee0e6537c476b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767362968,
+        "stop" : 1653767363153,
+        "duration" : 185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create order is valid credential",
+      "uid" : "f7ac5f5be3d0f3fa",
+      "parentUid" : "cbee31c0a77e6732fee0e6537c476b69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767363155,
+        "stop" : 1653767363315,
+        "duration" : 160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cbee31c0a77e6732fee0e6537c476b69"
+  }, {
+    "name" : "ru.yandex.practicum.order.GetAllOrdersTest",
+    "children" : [ {
+      "name" : "Get all orders courier",
+      "uid" : "9567a933cc126cfe",
+      "parentUid" : "783f291cf4ddfc80ab8af4578f37aff3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653767363318,
+        "stop" : 1653767364405,
+        "duration" : 1087
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "783f291cf4ddfc80ab8af4578f37aff3"
+  } ]
+}
